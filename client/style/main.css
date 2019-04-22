@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+}
+
+header a, nav a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #081E65;
+    color: white;
+}
+
+header{
+    background-color: aliceblue;
+}
+
+/* Mala practica */
+#logo {
+    width: 100px;
+}
+
+footer, header {
+    padding: 10px;
+}
+
+.alert-danger {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color:#ebccd1;
+}
+
+
+.alert-success {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color:#d6e9c6;
+}
+
+#alert {
+    display: none;
+}

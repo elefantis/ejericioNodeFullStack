@@ -1,0 +1,30 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #081E65;
+}
+
+nav li {
+    float: left;
+    min-width: 48px;
+    min-height: 48px;
+    margin-right: 40px;
+}
+
+nav li a {
+    display:  block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li:hover{
+    background-color: #1436A4;
+}
+
+nav li .active {
+    background-color: #1436A4;
+}

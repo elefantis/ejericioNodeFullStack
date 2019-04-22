@@ -1,0 +1,27 @@
+.movieForm {
+    padding: 20px;
+    margin: 10px;
+}
+
+.movieForm input[type=text], .movieForm input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.movieForm button {
+    border-radius: 4px;
+    background: #081E65;
+    color: white;
+    padding: 12px;
+    margin-right: 40px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.movieForm button:hover {
+    background: aliceblue;
+    color:black;
+}
